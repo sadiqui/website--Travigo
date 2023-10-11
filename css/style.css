@@ -130,27 +130,19 @@ form input{
 	margin: 4px 0;
 	border: 1px solid #5a7184;
 	border-radius:15px;
-	background: #221314;
+	background: #f8f0ea;
 	padding: 0 15px;
 	padding-right: 45px;
 	font-size: 20px;
-	-webkit-border-radius:15px;
-	-moz-border-radius:15px;
-	-ms-border-radius:15px;
-	-o-border-radius:15px;
 }
 form textarea{
 	padding: 5px 15px;
 	border: 1px solid #5a7184;
 	border-radius: 15px;
-	background: #221314;
+	background: #f8f0ea;
 	font-size: 20px;
 	width: 100%;
 	margin: 4px 0;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	-ms-border-radius: 15px;
-	-o-border-radius: 15px;
 }
 form button{
 	margin-top: 5px;
@@ -353,11 +345,6 @@ header.sticky{
 	cursor: pointer;
 }
 .blog-content img:hover{
-	-webkit-filter: brightness(30%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
     transition: all 1s ease;
 	cursor: pointer;
 }
@@ -487,10 +474,7 @@ header.sticky{
 		transition: .2s;
 	}
 	:root{
-		--big-font: 4.5rem;
-	  --h2-font: 2.3rem;
-	  --p-font: 1rem;
-	  transition: .2s;
+	    transition: .2s;
 	}
 }
 
